@@ -1,0 +1,662 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),url(./images/netflix\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    font-family: sans-serif;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8rem;
+    padding: 1.5rem 3rem;
+
+}
+#nav #left img{
+    width: 10rem;
+    height: 2.5rem;
+}
+#nav #right{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+#nav #right select{
+    background-color: black;
+    color: white;
+    width: 7.5rem;
+    height: 2rem;
+    border-radius: 5px;
+    padding: 0 1.4rem;
+    font-size: 1rem;
+}
+#nav #right button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+#right{
+    position: relative;
+}
+#right i{
+    color: white;
+    position: absolute;
+    left: 3%;
+}
+
+#unlimitedpar{
+    border-bottom: 10px solid #232323;
+}
+#unlimited{
+    text-align: center;
+    color: white;
+    margin-top: 10.5rem;
+    padding-bottom: 20rem;
+    position: relative;
+}
+#unlimited h1{
+    font-size: 3rem;
+    font-weight: 900;
+    
+}
+#unlimited h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+#unlimited h4{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+#inputbutton{
+    margin-right: 13rem;
+}
+#unlimited input{
+    width: 25%;
+    height: 3.4rem;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 0.05px solid gray;
+    color: white;
+    padding: 0 1rem;
+}
+#unlimited input::placeholder{
+    font-size: 1.1rem;
+    color:  #bbb8b3;
+}
+#unlimited button{
+    width: 13%;
+    height: 3.4rem;
+    background-color: red;
+    color: white;
+    margin-left: 7px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.6rem;
+    padding: 1px 10px;
+    position: absolute;
+    top: 211px;
+}
+
+
+#tvpar{
+    border-bottom: 10px solid #232323;
+}
+#tv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 7rem 0;
+
+}
+#tv div{
+    width: 48%;
+}
+#tv #enjoy h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+#enjoy p{
+    font-size: 1.5rem;
+}
+
+#bird img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#bird{
+    position: relative;
+}
+#bird video{
+    position: absolute;
+    top: 20.5%;
+    left: 13%;
+    width: 73%;
+    z-index: 1;
+}
+
+
+
+
+#mobpar{
+    border-bottom: 10px solid #232323;
+}
+#mobile{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 0;
+    width: 85%;
+    margin: auto;
+    
+}
+#mobile #st{
+    width: 45%;
+    position: relative;
+}
+#st #img1{
+    width: 100%;
+}
+
+#mobile #download{
+    width: 45%;
+}
+#mobile #download h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+#mobile #download p{
+    font-size: 1.6rem;
+}
+#strange{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #494949;
+    border-radius: 10px;
+    width: 51%;
+    margin: auto;
+    position: absolute;
+    bottom: 7%;
+    left: 22%;
+    background-color: black;
+    padding: 5px 10px;
+    gap: 10px;
+}
+
+#strange #im{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+#strange #im img{
+    width: 3.5rem;
+    
+}
+#strange #im h4{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+#strange #im h5{
+    font-size: 0.8rem;
+    margin-top: 0;
+    color: #005ac0;
+}
+#strange  #gif img{
+    width: 3rem;
+}
+
+
+
+#devicepar{
+    border-bottom: 10px solid #232323;
+}
+#device{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 7rem 0;
+}
+#device div{
+    width: 48%;
+}
+#watch h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+#watch p{
+    font-size: 1.5rem;
+}
+
+#apple img{
+    width: 98%;
+    position: relative;
+    z-index: 2;
+  
+}
+#apple{
+    position: relative;
+}
+#apple video{
+    position: absolute;
+    top: 11.5%;
+    left: 19%;
+    width: 60%;
+    z-index: 1;
+}
+
+
+#createpar{
+    border-bottom: 10px solid #232323;
+}
+#create{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto ;
+    padding: 4rem 0rem;
+}
+#child, #last{
+    width: 50%;
+}
+#child img{
+    width: 100%;
+}
+#last h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+#last p{
+    font-size: 1.5rem;
+}
+
+
+
+#freq{
+    color: white;
+}
+.fa-solid.fa-plus{
+    position: absolute;
+    right: 14rem;
+}
+#freq h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+#freq #plus div{
+    background-color: #2d2d2d;
+    width: 77%;
+    margin: auto;
+    align-items: center;
+    margin-top: 10px;
+}
+#freq p{
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    margin: 0px;
+}
+#freq #inn{
+    text-align: center;
+    margin-top: 3rem;
+    padding: 5rem 0rem;
+    border-bottom: 10px solid #232323;
+}
+#freq #inn h4{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+#freq #inn input{
+    width: 25rem;
+    height: 3.5rem;
+    font-size: 1.1rem;
+    color: white;
+    background-color: transparent;
+    padding: 0rem 1rem;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+#freq #inn input::placeholder{
+    font-size: 1.1rem;
+    color:  #bbb8b3;
+}
+#freq #inn button{
+    color: white;
+    background-color: red;
+    width: 12rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+
+
+#footer{
+    padding: 4rem 25% 1rem 12rem;
+    color: #b2b2b2;
+}
+#footer h2{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+#footer #ending .col a{
+    color: #b2b2b2;
+    font-size: 15px;
+    padding-bottom: 1rem;
+    display: block;
+}
+#footer #ending{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+#footer #ending .col{
+    
+    margin-bottom: 20px;
+}
+
+
+#footer #endbutt select{
+    background-color: black;
+    color: white;
+    width: 7.5rem;
+    height: 2rem;
+    border-radius: 5px;
+    padding-left: 1.7rem;
+    font-size: 1rem;
+}
+#endbutt{
+    position: relative;
+}
+#endbutt i{
+    color: white;
+    position: absolute;
+    left: 1%;
+    top: 23%;
+}
+#footer p{
+    margin-top: 1.5rem;
+    padding-bottom: 3.5rem;
+    font-size: 0.9rem;
+}
+
+@media(max-width:600px){
+    body{
+        background-size: 210%;
+        background-position-x: center;
+    }
+    #nav{
+        padding: 1.5rem;
+        margin: 0;
+        }
+   
+    #nav #left img{
+        width: 90px;
+        height: 25px;
+    }
+    #nav #right{
+        display: flex;
+        align-items: center;
+        gap: 10PX;
+    }
+    #nav #right select{
+        width: 3rem;
+        padding: 1px 10px;
+    }
+    #nav #right button{
+        height: 2.1rem;
+    }
+
+
+    #unlimited{
+        width: 85%;
+        margin: auto;
+        margin-top: 2rem;
+        padding-bottom: 2.5rem;
+    }
+    #unlimited h1{
+        font-size: 2rem;
+        font-weight: 700;
+        
+    }
+    #unlimited h3{
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+    #unlimited h4{
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+    #inputbutton{
+        display: flex; 
+        flex-direction: column;
+        margin-right: 0rem;
+    }
+    #unlimited #inputbutton input{
+        width: 80%;
+        margin: auto;
+        height: 3rem;
+    }
+    #unlimited #inputbutton button{
+        width: 50%;
+        height: 3rem;
+        font-size: 1.125rem;
+        position: relative;
+        top: 1rem;
+        left: 5rem;
+    }
+
+
+#tv{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 3.5rem 0;
+    text-align: center
+}
+#tv #enjoy h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0rem;
+}
+#enjoy p{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+#tv div{
+    width: 100%;
+}
+#bird img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#bird video{
+    position: absolute;
+    top: 20.5%;
+    left: 13%;
+    width: 73%;
+    z-index: 1;
+}
+
+
+
+#mobile{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 3.5rem 0;
+    width: 87%;
+    
+}
+#mobile #st{
+    width: 100%;
+}
+#mobile #download{
+    width: 100%;
+}
+#mobile #download h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0rem;
+}
+#mobile #download p{
+    font-size: 1.125rem;
+    width: 400;
+}
+#strange{
+    width: 75%;
+    height: 3.5rem;
+    position: absolute;
+    bottom: 7%;
+    left: 9%;
+}
+#strange #im img{
+    width: 2.5rem;   
+}
+#st-right{
+    text-align: left;
+}
+
+
+
+
+#device{
+    flex-direction: column;
+    padding: 3.5rem 0;
+    text-align: center;
+}
+#device div{
+    width: 100%;
+}
+#watch h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0rem;
+}
+#watch p{
+    font-size: 1.125rem;
+    width: 400;
+}
+
+
+
+#create{
+    flex-direction: column-reverse;
+    padding: 3.5rem 0rem;
+    text-align: center;
+    width: 85%;
+}
+#child, #last{
+    width: 100%;
+}
+#child img{
+    width: 100%;
+}
+#last h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0rem;
+}
+#last p{
+    font-size: 1.125rem;
+    width: 400;
+}
+
+
+
+
+
+
+.fa-solid.fa-plus{
+    position: absolute;
+    right: 3rem;
+    font-size: 1.5rem;
+}
+#freq h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 3rem 0 1rem 0;
+}
+#freq #plus div{
+    width: 87%;
+}
+#freq p{
+    font-size: 1.125rem;
+    padding: 1.5rem;
+    margin: 0px;
+}
+#freq #inn{
+    margin-top: 0;
+    padding: 1rem 2.5rem;
+    border-bottom: 10px solid #232323;
+}
+#freq #inn h4{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+#freq #inn input{
+    width: 85%;
+    height: 3rem;
+}
+#freq #inn button{
+    margin-top: 1rem;
+    width: 50%;
+    height: 3rem;
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+
+
+#footer{
+    padding: 2rem ;
+    color: #b2b2b2;
+}
+
+#footer #ending .col a{
+    color: #b2b2b2;
+    font-size: 15px;
+    padding-bottom: 1rem;
+    display: block;
+}
+#footer #ending{
+    align-items: start;
+    flex-direction: column;
+    width: 50%;
+}
+#footer #ending .col{
+    margin-bottom: 0px;
+}
+
+}
